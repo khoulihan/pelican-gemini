@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pelican-gemini"
+version = "0.1.0"
+description = "Gemini file reader plugin and patches for Pelican."
+authors = ["Kevin Houlihan <kevin@crimsoncookie.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pelican = "4.6.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
