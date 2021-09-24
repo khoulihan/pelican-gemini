@@ -19,7 +19,7 @@ class GeminiReader(BaseReader):
                     end_of_meta = True
                     continue
                 current = current.strip()
-                split = current.split(': ')
+                split = current.split(': ', 1)
                 metadata[split[0].lower()] = split[1]
             # After the first blank line, the rest is content.
             content = f.read()
